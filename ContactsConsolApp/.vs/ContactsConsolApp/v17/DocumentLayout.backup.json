@@ -42,8 +42,7 @@
               "RelativeToolTip": "DataAccessLayer\\clsDataAccessLayer.cs",
               "ViewState": "AgIAAPoAAAAAAAAAAAAMwAkBAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T22:34:26.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T22:34:26.317Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Core1\\clsInput.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T22:27:27.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T22:27:27.439Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "PresentationLayer\\Program.cs",
               "ToolTip": "C:\\Users\\faisa\\Desktop\\Contacts Project\\ContactsConsolApp\\PresentationLayer\\Program.cs",
               "RelativeToolTip": "PresentationLayer\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T22:26:44.007Z",
               "EditorCaption": ""
@@ -81,8 +79,7 @@
               "RelativeToolTip": "BusinessLayer\\clsContacts.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAwwGQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:11:31.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:11:31.5Z"
             }
           ]
         }
