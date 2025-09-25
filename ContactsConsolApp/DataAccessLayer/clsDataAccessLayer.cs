@@ -14,7 +14,7 @@ namespace DataAccessLayer
 
             string query = "SELECT * FROM Contacts WHERE ContactID = @ID";
 
-            using (SqlConnection connection = new SqlConnection(clsDataAccessLayerSettings.connectionString))
+            using (SqlConnection connection = new SqlConnection(clsDataAccessLayerSettings.connectionString2))
             {
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
@@ -267,6 +267,7 @@ namespace DataAccessLayer
                         }
                     }catch(Exception ex)
                     {
+                        Console.WriteLine(ex.Message);
                         IsFound = false;
                     }
                 }

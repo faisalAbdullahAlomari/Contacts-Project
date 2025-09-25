@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\faisa\\Desktop\\Contacts Project\\ContactsConsolApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{689BF42F-E819-400F-8921-CC8A6FAE5DFD}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\faisa\\desktop\\contacts project\\contactsconsolapp\\presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{689BF42F-E819-400F-8921-CC8A6FAE5DFD}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D185D989-740F-4DCF-A25D-02940E6D289F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\faisal\\desktop\\contactsproject\\contacts-project\\contactsconsolapp\\dataaccesslayer\\clsdataaccesslayersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D185D989-740F-4DCF-A25D-02940E6D289F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\clsdataaccesslayersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D185D989-740F-4DCF-A25D-02940E6D289F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\faisa\\desktop\\contacts project\\contactsconsolapp\\dataaccesslayer\\clsdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D185D989-740F-4DCF-A25D-02940E6D289F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\faisal\\desktop\\contactsproject\\contacts-project\\contactsconsolapp\\dataaccesslayer\\clsdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D185D989-740F-4DCF-A25D-02940E6D289F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\clsdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4103C2EE-7191-4DA2-BF5B-4624E087B102}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\faisa\\desktop\\contacts project\\contactsconsolapp\\businesslayer\\clscontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4103C2EE-7191-4DA2-BF5B-4624E087B102}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\faisal\\desktop\\contactsproject\\contacts-project\\contactsconsolapp\\businesslayer\\clscontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4103C2EE-7191-4DA2-BF5B-4624E087B102}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\clscontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{609B0ECE-0B29-4E3B-B622-51E9D76D0425}|Core1\\Core.csproj|c:\\users\\faisa\\desktop\\contacts project\\contactsconsolapp\\core1\\clsinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{689BF42F-E819-400F-8921-CC8A6FAE5DFD}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\faisal\\desktop\\contactsproject\\contacts-project\\contactsconsolapp\\presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689BF42F-E819-400F-8921-CC8A6FAE5DFD}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{609B0ECE-0B29-4E3B-B622-51E9D76D0425}|Core1\\Core.csproj|c:\\users\\faisal\\desktop\\contactsproject\\contacts-project\\contactsconsolapp\\core1\\clsinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{609B0ECE-0B29-4E3B-B622-51E9D76D0425}|Core1\\Core.csproj|solutionrelative:core1\\clsinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,31 +30,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsDataAccessLayerSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\clsDataAccessLayerSettings.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\clsDataAccessLayerSettings.cs",
+              "ToolTip": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\clsDataAccessLayerSettings.cs",
+              "RelativeToolTip": "DataAccessLayer\\clsDataAccessLayerSettings.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T14:36:58.371Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "clsDataAccessLayer.cs",
-              "DocumentMoniker": "C:\\Users\\faisa\\Desktop\\Contacts Project\\ContactsConsolApp\\DataAccessLayer\\clsDataAccessLayer.cs",
+              "DocumentMoniker": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\clsDataAccessLayer.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\clsDataAccessLayer.cs",
-              "ToolTip": "C:\\Users\\faisa\\Desktop\\Contacts Project\\ContactsConsolApp\\DataAccessLayer\\clsDataAccessLayer.cs",
+              "ToolTip": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\clsDataAccessLayer.cs",
               "RelativeToolTip": "DataAccessLayer\\clsDataAccessLayer.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAMwAkBAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAIwBEBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T22:34:26.317Z"
+              "WhenOpened": "2025-09-20T22:34:26.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "clsInput.cs",
-              "DocumentMoniker": "C:\\Users\\faisa\\Desktop\\Contacts Project\\ContactsConsolApp\\Core1\\clsInput.cs",
+              "DocumentMoniker": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\Core1\\clsInput.cs",
               "RelativeDocumentMoniker": "Core1\\clsInput.cs",
-              "ToolTip": "C:\\Users\\faisa\\Desktop\\Contacts Project\\ContactsConsolApp\\Core1\\clsInput.cs",
+              "ToolTip": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\Core1\\clsInput.cs",
               "RelativeToolTip": "Core1\\clsInput.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -58,13 +76,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\faisa\\Desktop\\Contacts Project\\ContactsConsolApp\\PresentationLayer\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\PresentationLayer\\Program.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Program.cs",
-              "ToolTip": "C:\\Users\\faisa\\Desktop\\Contacts Project\\ContactsConsolApp\\PresentationLayer\\Program.cs",
+              "ToolTip": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\PresentationLayer\\Program.cs",
               "RelativeToolTip": "PresentationLayer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAADgv3cAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T22:26:44.007Z",
               "EditorCaption": ""
@@ -73,13 +91,14 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "clsContacts.cs",
-              "DocumentMoniker": "C:\\Users\\faisa\\Desktop\\Contacts Project\\ContactsConsolApp\\BusinessLayer\\clsContacts.cs",
+              "DocumentMoniker": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\BusinessLayer\\clsContacts.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\clsContacts.cs",
-              "ToolTip": "C:\\Users\\faisa\\Desktop\\Contacts Project\\ContactsConsolApp\\BusinessLayer\\clsContacts.cs",
+              "ToolTip": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\BusinessLayer\\clsContacts.cs",
               "RelativeToolTip": "BusinessLayer\\clsContacts.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwGQAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAArwGQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:11:31.5Z"
+              "WhenOpened": "2025-09-18T09:11:31.5Z",
+              "EditorCaption": ""
             }
           ]
         }

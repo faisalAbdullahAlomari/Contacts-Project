@@ -6,5 +6,6 @@ namespace DataAccessLayer
     {
 
         public static string connectionString = "Data Source=FAISALSC\\MSSSQLSERVER;Initial Catalog=ContactsDB;Integrated Security=True;";
+        public static string connectionString2 = "Server=.;Initial Catalog=ContactsDB;Integrated Security=True;";
     }
 }
