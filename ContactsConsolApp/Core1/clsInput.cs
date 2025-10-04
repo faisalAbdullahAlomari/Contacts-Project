@@ -16,8 +16,8 @@ namespace Core
             string Input = ReadString(Message);            
             while (!IsInteger(Input))
             {
-                Console.Write("Enter A Valid Number: ");
-                Input = ReadString("");
+
+                Input = ReadString("Enter A Valid Number: ");
             }
             return Convert.ToInt32(Input);
         }
