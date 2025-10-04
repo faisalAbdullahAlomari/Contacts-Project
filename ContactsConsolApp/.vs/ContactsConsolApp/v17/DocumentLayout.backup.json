@@ -30,8 +30,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,7 +44,7 @@
               "RelativeDocumentMoniker": "DataAccessLayer\\clsDataAccessLayerSettings.cs",
               "ToolTip": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\clsDataAccessLayerSettings.cs",
               "RelativeToolTip": "DataAccessLayer\\clsDataAccessLayerSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABxAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T14:36:58.371Z",
               "EditorCaption": ""
@@ -53,7 +57,7 @@
               "RelativeDocumentMoniker": "DataAccessLayer\\clsDataAccessLayer.cs",
               "ToolTip": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\clsDataAccessLayer.cs",
               "RelativeToolTip": "DataAccessLayer\\clsDataAccessLayer.cs",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAqwPoAAABrAAAAAAAAAA==",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAIwBEBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T22:34:26.317Z",
               "EditorCaption": ""

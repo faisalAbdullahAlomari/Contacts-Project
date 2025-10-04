@@ -24,15 +24,7 @@ namespace Core
 
         public static bool IsInteger(string Input)
         {
-            try
-            {
-                Convert.ToInt32(Input);
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
+            return int.TryParse(Input, out _);
         }
     }
 }
