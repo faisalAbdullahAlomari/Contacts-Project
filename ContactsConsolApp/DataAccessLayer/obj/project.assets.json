@@ -172,23 +172,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Faisal\\.nuget\\packages\\": {},
+    "C:\\Users\\faisa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj",
-      "packagesPath": "C:\\Users\\Faisal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Faisal\\Desktop\\ContactsProject\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\obj\\",
+      "projectPath": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj",
+      "packagesPath": "C:\\Users\\faisa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Faisal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\faisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -242,7 +242,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -315,5 +315,76 @@ namespace DataAccessLayer
 
             return IsFound;
         }
+
+        public static int AddNewCountry(string CountryName)
+        {
+
+            int CountryID = -1;
+
+            string query = @"INSERT INTO Countries (CountryName) VALUES (@CountryName);
+                            SELECT SCOPE_IDENTITY();";
+
+            using(SqlConnection connection = new SqlConnection(clsDataAccessLayerSettings.connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+
+                    command.Parameters.Add("@CountryName", SqlDbType.NVarChar, 50).Value = CountryName;
+
+                    try
+                    {
+                        connection.Open();
+                        object ID = command.ExecuteScalar();
+
+                        if (ID != null && int.TryParse(ID.ToString(), out int InsertedID))
+                        {
+
+                            CountryID = InsertedID;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+
+                        Console.WriteLine("Error: " + ex.Message);
+                    }
+                }
+            }
+
+            return CountryID;
+        }
+
+        public static bool UpdateCountry(int CountryID, string CountryName)
+        {
+
+            int RowsAffected = 0;
+
+            string query = @"UPDATE Countries 
+                            SET CountryName = @CountryName
+                            WHERE CountryID = @CountryID;";
+
+            using(SqlConnection connection = new SqlConnection(clsDataAccessLayerSettings.connectionString))
+            {
+                using(SqlCommand command = new SqlCommand(query, connection))
+                {
+
+                    command.Parameters.Add("@CountryName", SqlDbType.NVarChar, 50).Value = CountryName;
+                    command.Parameters.Add("@CountryID", SqlDbType.Int).Value = CountryID;
+
+                    try
+                    {
+
+                        connection.Open();
+                        RowsAffected = command.ExecuteNonQuery();
+
+                    }catch(Exception ex)
+                    {
+
+                        Console.WriteLine("Error: "+ ex.Message);
+                    }                    
+                }
+            }
+
+            return (RowsAffected > 0);
+        }
     }
 }

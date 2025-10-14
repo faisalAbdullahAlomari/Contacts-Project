@@ -127,10 +127,59 @@ namespace PresentationLayer
             }
         }
 
+        static clsCountries FindCountry()
+        {
+
+            clsCountries Country = clsCountries.Find(clsInput.ReadInteger("Enter Country ID: "));
+
+            if(Country != null)
+            {
+                Console.WriteLine($"Country ID: {Country.CountryID}");
+                Console.WriteLine($"Country Name: {Country.CountryName}");
+            }
+            else
+            {
+                Console.WriteLine("Country Is Not Found!");
+            }
+
+            return Country;
+        }
+
+        static void AddNewCountry()
+        {
+
+            clsCountries Country = new clsCountries();
+
+            Country.CountryName = clsInput.ReadString("Enter The New Country Name: ");
+
+            if (Country.Save())
+            {
+
+                Console.WriteLine($"The New Country Is Added Successfully With ID: {Country.CountryID}");
+            }
+        }
+
+        static void UpdateCountry()
+        {
+
+            clsCountries Country = FindCountry();
+
+            if(Country != null)
+            {
+
+                Country.CountryName = clsInput.ReadString("Enter The New Country Name: ");
+
+                if (Country.Save())
+                {
+                    Console.WriteLine($"Contact Updated Successfully With Country ID: {Country.CountryID}");
+                }
+            }
+        }
+
         static void Main(string[] args)
         {
 
-            IsContactExist();
+            AddNewCountry();
             Console.ReadKey();
         }
     }

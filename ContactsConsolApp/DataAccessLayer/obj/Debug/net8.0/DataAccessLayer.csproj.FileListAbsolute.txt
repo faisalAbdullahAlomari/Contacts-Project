@@ -23,3 +23,16 @@ C:\Users\Faisal\Desktop\ContactsProject\Contacts-Project\ContactsConsolApp\DataA
 C:\Users\Faisal\Desktop\ContactsProject\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
 C:\Users\Faisal\Desktop\ContactsProject\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
 C:\Users\Faisal\Desktop\ContactsProject\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\faisa\source\repos\Contacts-Project\ContactsConsolApp\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
