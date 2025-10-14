@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Linq.Expressions;
 
 namespace DataAccessLayer
 {
@@ -385,6 +386,44 @@ namespace DataAccessLayer
             }
 
             return (RowsAffected > 0);
+        }
+
+        public static bool DeleteCountry(int CountryID)
+        {
+
+            int RowsAffected = 0;
+
+            bool Deleted = false;
+
+            string query = "DELETE FROM Countries WHERE CountryID = @CountryID;";
+
+            using(SqlConnection connection = new SqlConnection(clsDataAccessLayerSettings.connectionString))
+            {
+                using(SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.Add(@"CountryID", SqlDbType.Int).Value = CountryID;
+
+                    try
+                    {
+                        connection.Open();
+                        RowsAffected = command.ExecuteNonQuery();
+                        if (RowsAffected > 0)
+                        {
+                            Deleted = true;
+                        }
+                        else
+                        {
+                            Deleted = false;
+                        }
+
+                    }catch(Exception ex)
+                    {
+                        Console.WriteLine("Error" + ex.Message);
+                    }
+                }
+            }
+
+            return Deleted;
         }
     }
 }

@@ -176,10 +176,25 @@ namespace PresentationLayer
             }
         }
 
+        static void DeleteCountry()
+        {
+            int CountryIDToDelete = clsInput.ReadInteger("Enter Country ID To Delete: ");
+
+            if(clsCountries.DeleteCountry(CountryIDToDelete))
+            {
+                Console.WriteLine("Country Deleted Successfully");
+            }
+            else
+            {
+                Console.WriteLine("Country Is Not Found!");
+            }
+            
+        }
+
         static void Main(string[] args)
         {
 
-            AddNewCountry();
+            DeleteCountry();
             Console.ReadKey();
         }
     }
