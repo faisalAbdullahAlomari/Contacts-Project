@@ -418,6 +418,7 @@ namespace DataAccessLayer
 
                     }catch(Exception ex)
                     {
+                        Deleted = false;
                         Console.WriteLine("Error" + ex.Message);
                     }
                 }
