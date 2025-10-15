@@ -397,9 +397,9 @@ namespace DataAccessLayer
 
             string query = "DELETE FROM Countries WHERE CountryID = @CountryID;";
 
-            using(SqlConnection connection = new SqlConnection(clsDataAccessLayerSettings.connectionString))
+            using (SqlConnection connection = new SqlConnection(clsDataAccessLayerSettings.connectionString))
             {
-                using(SqlCommand command = new SqlCommand(query, connection))
+                using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.Parameters.Add(@"CountryID", SqlDbType.Int).Value = CountryID;
 
@@ -416,7 +416,7 @@ namespace DataAccessLayer
                             Deleted = false;
                         }
 
-                    }catch(Exception ex)
+                    } catch (Exception ex)
                     {
                         Deleted = false;
                         Console.WriteLine("Error" + ex.Message);
@@ -425,6 +425,86 @@ namespace DataAccessLayer
             }
 
             return Deleted;
+        }
+
+        public static bool FindCountryByName(ref int CountryID, string CountryName)
+        {
+
+            bool IsFound = false;
+
+            string query = "SELECT * FROM Countries WHERE CountryName = @CountryName";
+
+            using (SqlConnection connection = new SqlConnection(clsDataAccessLayerSettings.connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.Add("@CountryName", SqlDbType.NVarChar, 50).Value = CountryName;
+
+                    try
+                    {
+                        connection.Open();
+
+                        SqlDataReader reader = command.ExecuteReader();
+
+                        if (reader.Read())
+                        {
+
+                            IsFound = true;
+
+                            CountryID = (int)reader["CountryID"];
+                        }
+                        else
+                        {
+
+                            IsFound = false;
+                        }
+
+                    }catch(Exception ex)
+                    {
+                        Console.WriteLine("Error: " + ex.Message);
+                    }
+                }
+            }
+
+            return IsFound;
+        }
+
+        public static DataTable GetAllCountries()
+        {
+
+            DataTable DT = new DataTable();
+
+            string query = "SELECT * FROM Countries";
+
+            using (SqlConnection connection = new SqlConnection(clsDataAccessLayerSettings.connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    
+                        try
+                        {
+                            connection.Open();
+
+                            using (SqlDataReader reader = command.ExecuteReader())
+                            {
+                                if (reader.HasRows)
+                                {
+                                    DT.Load(reader);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("No Countries In The Table!");
+                                }
+                            }
+                        }catch(Exception ex)
+                        {
+
+                            Console.WriteLine("Error: " + ex.Message);
+                        }
+                    }
+            }
+
+            return DT;
         }
     }
 }

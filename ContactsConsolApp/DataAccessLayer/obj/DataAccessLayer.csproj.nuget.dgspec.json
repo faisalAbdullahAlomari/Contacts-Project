@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\faisa\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",

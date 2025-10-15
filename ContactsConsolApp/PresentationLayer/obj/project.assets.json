@@ -340,9 +340,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\PresentationLayer\\PresentationLayer.csproj",
+      "projectUniqueName": "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\PresentationLayer\\PresentationLayer.csproj",
       "projectName": "PresentationLayer",
-      "projectPath": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\PresentationLayer\\PresentationLayer.csproj",
+      "projectPath": "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\PresentationLayer\\PresentationLayer.csproj",
       "packagesPath": "C:\\Users\\faisa\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\PresentationLayer\\obj\\",
       "projectStyle": "PackageReference",
@@ -365,11 +365,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\Core1\\Core.csproj": {
-              "projectPath": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\Core1\\Core.csproj"
+            "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\Core1\\Core.csproj": {
+              "projectPath": "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\Core1\\Core.csproj"
             }
           }
         }

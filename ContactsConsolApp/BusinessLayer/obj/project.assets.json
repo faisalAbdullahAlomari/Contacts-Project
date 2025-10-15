@@ -197,9 +197,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\faisa\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
@@ -222,8 +222,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\faisa\\source\\repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\faisa\\Source\\Repos\\Contacts-Project\\ContactsConsolApp\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }

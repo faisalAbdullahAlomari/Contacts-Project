@@ -1,6 +1,7 @@
 ﻿using DataAccessLayer;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -62,6 +63,27 @@ namespace BusinessLayer
         {
 
             return clsDataAccessLayer.DeleteCountry(CountryID);
+        }
+
+        public static clsCountries Find(string CountryName)
+        {
+
+            int CountryID = -1;
+
+            if (clsDataAccessLayer.FindCountryByName(ref CountryID, CountryName))
+            {
+                return new clsCountries(CountryID, CountryName);
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public static DataTable ListCountries()
+        {
+
+            return clsDataAccessLayer.GetAllCountries();
         }
 
         public bool Save()

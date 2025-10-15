@@ -127,7 +127,7 @@ namespace PresentationLayer
             }
         }
 
-        static clsCountries FindCountry()
+        static clsCountries FindCountryByID()
         {
 
             clsCountries Country = clsCountries.Find(clsInput.ReadInteger("Enter Country ID: "));
@@ -162,7 +162,7 @@ namespace PresentationLayer
         static void UpdateCountry()
         {
 
-            clsCountries Country = FindCountry();
+            clsCountries Country = FindCountryByID();
 
             if(Country != null)
             {
@@ -191,10 +191,40 @@ namespace PresentationLayer
             
         }
 
+        static void FindCountryByName()
+        {
+
+            clsCountries Country = clsCountries.Find(clsInput.ReadString("Enter Country Name: "));
+
+            if(Country != null)
+            {
+                Console.WriteLine("Country ID: " + Country.CountryID);
+                Console.WriteLine("Country Name: " + Country.CountryName);
+            }
+            else
+            {
+                Console.WriteLine("Country Is Not Found!");
+            }
+        }
+
+        static void ListCountries()
+        {
+            DataTable DT = clsCountries.ListCountries();
+
+            Console.WriteLine("Countries: ");
+
+            foreach(DataRow row in DT.Rows)
+            {
+
+                Console.WriteLine($"{row["CountryID"]}, {row["CountryName"]}");
+            }
+
+        }
+
         static void Main(string[] args)
         {
 
-            DeleteCountry();
+            ListCountries();
             Console.ReadKey();
         }
     }
