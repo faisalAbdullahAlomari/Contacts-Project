@@ -221,10 +221,23 @@ namespace PresentationLayer
 
         }
 
+        static void IsCountryExsistByCountryID()
+        {
+
+            if(clsCountries.IsCountryExist(clsInput.ReadInteger("Enter Country ID: "))){
+
+                Console.WriteLine("Country Exist");
+            }
+            else
+            {
+                Console.WriteLine("Country Is Not Found!");
+            }
+        }
+
         static void Main(string[] args)
         {
 
-            ListCountries();
+            IsCountryExsistByCountryID();
             Console.ReadKey();
         }
     }

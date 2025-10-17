@@ -268,7 +268,7 @@ namespace DataAccessLayer
                         }
                     }catch(Exception ex)
                     {
-                        Console.WriteLine(ex.Message);
+                        Console.WriteLine("Error" + ex.Message);
                         IsFound = false;
                     }
                 }
@@ -480,31 +480,67 @@ namespace DataAccessLayer
             {
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    
-                        try
-                        {
-                            connection.Open();
 
-                            using (SqlDataReader reader = command.ExecuteReader())
+                    try
+                    {
+                        connection.Open();
+
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.HasRows)
                             {
-                                if (reader.HasRows)
-                                {
-                                    DT.Load(reader);
-                                }
-                                else
-                                {
-                                    Console.WriteLine("No Countries In The Table!");
-                                }
+                                DT.Load(reader);
                             }
-                        }catch(Exception ex)
-                        {
-
-                            Console.WriteLine("Error: " + ex.Message);
+                            else
+                            {
+                                Console.WriteLine("No Countries In The Table!");
+                            }
                         }
+                    }catch(Exception ex)
+                    {
+
+                        Console.WriteLine("Error: " + ex.Message);
                     }
+                }
             }
 
             return DT;
+        }
+
+        public static bool IsCountryExistByCountryID(int CountryID)
+        {
+
+            bool IsExist = false;
+
+            string query = "SELECT IsFound = 1 FROM Countries WHERE CountryID = @CountryID";
+
+            using(SqlConnection connection = new SqlConnection(clsDataAccessLayerSettings.connectionString2))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+
+                    command.Parameters.Add("@CountryID", SqlDbType.Int).Value = CountryID;
+
+                    try
+                    {
+
+                        connection.Open();
+
+                        using(SqlDataReader reader = command.ExecuteReader())
+                        {
+
+                            IsExist = reader.HasRows;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        IsExist = false;
+                        Console.WriteLine("Error: " + ex.Message);
+                    }
+                }
+            }
+
+            return IsExist;
         }
     }
 }
