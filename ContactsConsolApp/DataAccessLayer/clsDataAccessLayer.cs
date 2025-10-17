@@ -542,5 +542,39 @@ namespace DataAccessLayer
 
             return IsExist;
         }
+
+        public static bool IsCountryExistByCountryName(string CountryName)
+        {
+
+            bool IsExist = false;
+
+            string query = "SELECT IsFound = 1 FROM Countries WHERE CountryName = @CountryName";
+
+            using (SqlConnection connection = new SqlConnection(clsDataAccessLayerSettings.connectionString2))
+            {
+                using(SqlCommand command = new SqlCommand(query, connection))
+                {
+
+                    command.Parameters.Add("@CountryName", SqlDbType.NVarChar, 50).Value = CountryName;
+
+                    try
+                    {
+                        connection.Open();
+
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            IsExist = reader.HasRows;
+                        }
+                    }
+                    catch(Exception ex)
+                    {
+                        Console.WriteLine("Error: " + ex.Message);
+                        IsExist = false;
+                    }
+                }
+            }
+
+            return IsExist;
+        }
     }
 }

@@ -221,10 +221,10 @@ namespace PresentationLayer
 
         }
 
-        static void IsCountryExsistByCountryID()
+        static void IsCountryExistByCountryID()
         {
 
-            if(clsCountries.IsCountryExist(clsInput.ReadInteger("Enter Country ID: "))){
+            if(clsCountries.IsCountryExistByID(clsInput.ReadInteger("Enter Country ID: "))){
 
                 Console.WriteLine("Country Exist");
             }
@@ -234,10 +234,19 @@ namespace PresentationLayer
             }
         }
 
+        static void IsCountryExistByCountryName()
+        {
+
+            if(clsCountries.IsCountryExistByCountryName(clsInput.ReadString("Enter Country Name: ")))
+                Console.WriteLine("Country Found");
+            else
+                Console.WriteLine("Country Is Not Found!");
+        }
+
         static void Main(string[] args)
         {
 
-            IsCountryExsistByCountryID();
+            IsCountryExistByCountryName();
             Console.ReadKey();
         }
     }
