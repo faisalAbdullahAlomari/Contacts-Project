@@ -31,19 +31,27 @@ namespace BusinessLayer
         public int CountryID { set; get; }
 
         public string CountryName { set; get; }
+
+        public string Code { set; get; }
+
+        public string PhoneCode { set; get; }
         
         public clsCountries()
         {
 
             this.CountryID = -1;
             this.CountryName = "";
+            this.Code = "";
+            this.PhoneCode = "";
         }
 
-        private clsCountries(int CountryID, string CountryName)
+        private clsCountries(int CountryID, string CountryName, string Code, string PhoneCode)
         {
 
             this.CountryID = CountryID;
             this.CountryName = CountryName;
+            this.Code = Code;
+            this.PhoneCode = PhoneCode;
 
             Mode = enMode.Update;
         }
@@ -52,9 +60,11 @@ namespace BusinessLayer
         {
 
             string CountryName = "";
+            string Code = "";
+            string PhoneCode = "";
 
-            if (clsDataAccessLayer.FindCountryByID(CountryID, ref CountryName))
-                return new clsCountries(CountryID, CountryName);
+            if (clsDataAccessLayer.FindCountryByID(CountryID, ref CountryName, ref Code, ref PhoneCode))
+                return new clsCountries(CountryID, CountryName, Code, PhoneCode);
             else
                 return null;
         }
@@ -69,10 +79,12 @@ namespace BusinessLayer
         {
 
             int CountryID = -1;
+            string Code = "";
+            string PhoneCode = "";
 
-            if (clsDataAccessLayer.FindCountryByName(ref CountryID, CountryName))
+            if (clsDataAccessLayer.FindCountryByName(ref CountryID, CountryName, ref Code, ref PhoneCode))
             {
-                return new clsCountries(CountryID, CountryName);
+                return new clsCountries(CountryID, CountryName, Code, PhoneCode);
             }
             else
             {

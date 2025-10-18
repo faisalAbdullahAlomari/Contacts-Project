@@ -277,7 +277,7 @@ namespace DataAccessLayer
             return IsFound;
         }
 
-        public static bool FindCountryByID(int CountryID, ref string CountryName)
+        public static bool FindCountryByID(int CountryID, ref string CountryName, ref string Code, ref string PhoneCode)
         {
             bool IsFound = false;
 
@@ -299,7 +299,9 @@ namespace DataAccessLayer
                             if (reader.Read())
                             {
                                 IsFound = true;
-                                CountryName = (string)reader["CountryName"];
+                                CountryName = reader.GetString(reader.GetOrdinal("CountryName"));
+                                Code = reader["Code"] as string ?? "";
+                                PhoneCode = reader["PhoneCode"] as string ?? "";
                             }
                             else
                             {
@@ -427,7 +429,7 @@ namespace DataAccessLayer
             return Deleted;
         }
 
-        public static bool FindCountryByName(ref int CountryID, string CountryName)
+        public static bool FindCountryByName(ref int CountryID, string CountryName, ref string Code, ref string PhoneCode)
         {
 
             bool IsFound = false;
@@ -452,6 +454,8 @@ namespace DataAccessLayer
                             IsFound = true;
 
                             CountryID = (int)reader["CountryID"];
+                            Code = reader["Code"] as string ?? "";
+                            PhoneCode = reader["PhoneCode"] as string ?? "";
                         }
                         else
                         {
